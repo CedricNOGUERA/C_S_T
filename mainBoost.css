@@ -29,43 +29,26 @@ body {
 	cursor: auto;
 }
 #right_ticket a:link {
-	/* outline: green dashed; */
 	text-decoration: none;
 	color: #909090;
 }
 #menu a {
-	/* outline: green dashed; */
 	text-decoration: none;
 	color: #909090;
 }
 
-#menu {
-	/* width: 9%; */
-}
-
 #menu .card {
-	/* width: 50%; */
-	/* width: 6.5vh;
-	height: 6.5vh; */
 	width: 60px;
 	height: 60px;
 }
 
-.row .me-3 {
-	width: 23.3%;
-	margin: 0 1.5% 3% 0;
-	/* text-align: center; */
-	/* height: 60px; */
-}
 .row p {
 	text-align: right;
 	margin-bottom: -5px;
 }
 
 .navbar a {
-	/* color: #ff8800 !important; */
 	color: #fff !important;
-	/* vertical-align: middle; */
 }
 
 .achat {
@@ -89,18 +72,12 @@ body {
 	height: 100%;
 }
 
-#contenu {
-	/* width: 58%; */
-}
-
 #right_ticket {
-	/* width: 30%; */
 	position: relative;
 	height: 90vh;
 }
 #right_ticket .card-header {
 	background: #2c2c28;
-	/* background: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important; */
 }
 
 #right_ticket .card-title,
@@ -109,7 +86,6 @@ body {
 }
 #mPaiement {
 	background: #ff8800;
-	/* background: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important; */
 }
 
 #mPaiement .card-title {
@@ -124,7 +100,6 @@ body {
 }
 
 .subm {
-	/* background: no-repeat url("images/cross-icon-vector-white15x15.jpg") !important; */
 	width: 15px;
 	height: 15px;
 	border: none;
@@ -143,21 +118,17 @@ body {
 	margin: 0 5% 0 5%;
 }
 
-/* #overlay {
-	background: grey;
-	width: 58%;
-	height: 60%;
-	display: none;
-	position: absolute;
-	opacity: 0.75;
-	z-index: 1;
-}
-#overlay-on {
-	display: block;
-} */
 .container ul {
 	list-style: none;
 }
+
+@media screen and (max-width: 768px) {
+	#menu {
+		display: none;
+		margin: 0 0 0 1% !important;
+	}
+}
+
 /* 
 @media screen and (max-width: 1536px) {
 	body {
@@ -197,13 +168,9 @@ body {
 		margin: 0 1.5% 3% 0;
 	}
 }
-
-@media screen and (max-width: 780px) {
-	body {
-		overflow-y: visible;
-		min-width: 100%;
-		margin: auto;
-	}
+*/
+/* @media screen and (max-width: 780px) {
+	
 	#menu {
 		display: none;
 		margin: 0 0 0 1% !important;

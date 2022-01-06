@@ -1,6 +1,6 @@
 <!--    NAVBAR     -->
 <div class="col-12">
-    <nav class="navbar navbar-expand-lg bg-secondary mb-3">
+    <nav class="navbar navbar-expand-lg bg-dark mb-3">
         <div class="container-fluid">
             <div class="container  col-3 m-0">
                 <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
