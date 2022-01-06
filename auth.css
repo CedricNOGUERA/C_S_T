@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Barlow:wght@100&family=Bebas+Neue&family=Open+Sans&family=Open+Sans+Condensed:wght@300&family=Outfit&family=Rajdhani:wght@700&family=Slabo+27px&family=Teko:wght@500&family=Yanone+Kaffeesatz:wght@500&display=swap");
+body {
+	background: url(images/bgAuth.jpg);
+	font-family: "Teko", sans-serif;
+}
+.badge-mdp {
+	width: 20px;
+	display: inline-block;
+	height: 20px;
+}
+.digicode button {
+	width: 25%;
+}
+
+.digicode button:hover {
+	color: rgb(107, 104, 104) !important;
+}
+
+.col-4 {
+	width: 460px;
+}
+
+@media screen and (max-width: 408px) {
+	.digicode button {
+		background: fixed;
+		width: 30% !important;
+		font-size: 1.2rem !important;
+		margin: 1% !important;
+		padding: 9% 13% 9% 11% !important;
+	}
+}

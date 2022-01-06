@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Barlow:wght@100&family=Bebas+Neue&family=Open+Sans&family=Open+Sans+Condensed:wght@300&family=Outfit&family=Rajdhani:wght@700&family=Slabo+27px&family=Teko:wght@500&family=Yanone+Kaffeesatz:wght@500&display=swap");
+html {
+	position: relative;
+	margin: 0px;
+	padding: 0;
+	min-height: 100%;
+	width: 100%;
+}
+body {
+	background-color: #f0f0f7;
+	margin: 0px;
+	font-family: "Teko", sans-serif;
+	min-width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+#overlay {
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 2;
+	cursor: auto;
+}
+#right_ticket a:link {
+	/* outline: green dashed; */
+	text-decoration: none;
+	color: #909090;
+}
+#menu a {
+	/* outline: green dashed; */
+	text-decoration: none;
+	color: #909090;
+}
+
+#menu {
+	/* width: 9%; */
+}
+
+#menu .card {
+	/* width: 50%; */
+	/* width: 6.5vh;
+	height: 6.5vh; */
+	width: 60px;
+	height: 60px;
+}
+
+.row .me-3 {
+	width: 23.3%;
+	margin: 0 1.5% 3% 0;
+	/* text-align: center; */
+	/* height: 60px; */
+}
+.row p {
+	text-align: right;
+	margin-bottom: -5px;
+}
+
+.navbar a {
+	/* color: #ff8800 !important; */
+	color: #fff !important;
+	/* vertical-align: middle; */
+}
+
+.achat {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: none;
+	background: none;
+
+	width: 100%;
+	height: 130px;
+}
+.unlink {
+	position: absolute;
+	top: 0%;
+	right: 5%;
+	border: none;
+	background: none;
+
+	width: 70px;
+	height: 100%;
+}
+
+#contenu {
+	/* width: 58%; */
+}
+
+#right_ticket {
+	/* width: 30%; */
+	position: relative;
+	height: 90vh;
+}
+#right_ticket .card-header {
+	background: #2c2c28;
+	/* background: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important; */
+}
+
+#right_ticket .card-title,
+.container .encaisser {
+	color: #ff8800;
+}
+#mPaiement {
+	background: #ff8800;
+	/* background: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important; */
+}
+
+#mPaiement .card-title {
+	color: #2c2c28;
+}
+.container ul {
+	padding: 0;
+}
+.container ul li {
+	margin-bottom: 5%;
+	color: #ff8800;
+}
+
+.subm {
+	/* background: no-repeat url("images/cross-icon-vector-white15x15.jpg") !important; */
+	width: 15px;
+	height: 15px;
+	border: none;
+}
+
+#total_ticket {
+	position: absolute;
+	bottom: 55px;
+}
+#icon-paiement {
+	position: absolute;
+	width: 100%;
+	bottom: 5px;
+}
+#icon-paiement img {
+	margin: 0 5% 0 5%;
+}
+
+/* #overlay {
+	background: grey;
+	width: 58%;
+	height: 60%;
+	display: none;
+	position: absolute;
+	opacity: 0.75;
+	z-index: 1;
+}
+#overlay-on {
+	display: block;
+} */
+.container ul {
+	list-style: none;
+}
+/* 
+@media screen and (max-width: 1536px) {
+	body {
+		overflow-x: hidden !important;
+
+		min-height: 100%;
+		min-width: 100%;
+		margin: auto;
+	}
+
+	.col-1 .card {
+		width: 7.5vh;
+		height: 7.5vh;
+	}
+
+	.row .me-3 {
+		width: 30.5%;
+		margin: 0 1.5% 3% 0;
+	}
+
+	
+}
+
+@media screen and (max-width: 948px) {
+	body {
+		overflow-y: visible;
+		overflow: hidden;
+		min-width: 100%;
+		margin: auto;
+	}
+	#menu {
+		margin: 0 0 0 1% !important;
+	}
+
+	.row .me-3 {
+		width: 45%;
+		margin: 0 1.5% 3% 0;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	body {
+		overflow-y: visible;
+		min-width: 100%;
+		margin: auto;
+	}
+	#menu {
+		display: none;
+		margin: 0 0 0 1% !important;
+	}
+	#contenu {
+		width: 60%;
+	}
+
+	#right_ticket {
+		width: 35%;
+		padding-left: 3%;
+	}
+
+	.row .me-3 {
+		width: 45%;
+		margin: 0 1.5% 3% 0;
+	}
+}
+@media screen and (max-width: 520px) {
+	html {
+		width: 101%;
+	}
+	#contenu {
+		width: 45%;
+		margin: 0;
+	}
+	.row .me-3 {
+		width: 85%;
+		margin: 0 0 3% 0;
+	}
+	#right_ticket {
+		width: 50%;
+	}
+} */

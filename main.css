@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Barlow:wght@100&family=Bebas+Neue&family=Open+Sans&family=Open+Sans+Condensed:wght@300&family=Outfit&family=Rajdhani:wght@700&family=Slabo+27px&family=Teko:wght@500&family=Yanone+Kaffeesatz:wght@500&display=swap");
+body {
+	position: absolute;
+	height: 924px;
+	background-color: #f0f0f7;
+	margin: auto;
+	/* font-family: 'Arvo', serif;
+font-family: 'Barlow', sans-serif;
+font-family: 'Bebas Neue', cursive; */
+	/* font-family: "Open Sans", sans-serif;
+	
+	/* /*font-family: 'Open Sans Condensed', sans-serif;
+ font-family: 'Outfit', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Slabo 27px', serif;
+
+font-family: 'Yanone Kaffeesatz', sans-serif;  */
+	font-family: "Teko", sans-serif;
+}
+
+#mainContainer {
+	position: fixed;
+
+	min-width: 100%;
+	height: 100%;
+}
+.navbar {
+	margin: 0 0 1% 0;
+}
+
+/* menu de gauche */
+
+#menuFiltre {
+	display: block;
+	float: left;
+	/* min-width: 100px; */
+	width: 9%;
+	height: 93.5%;
+	margin: 0 0 0 1%;
+	overflow-y: auto;
+	/* scroll-behavior: smooth; */
+	font-size: 1.3em;
+}
+
+#menuFiltre .card {
+	background: none;
+	border: none;
+	width: 100%;
+	height: 90px;
+	margin: 0 0 1% 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#menuFiltre .card:hover,
+#menuFiltre .card:focus {
+	background: #fff;
+	border: #999;
+}
+#menuFiltre button {
+	border: none;
+	background: none;
+}
+
+#menuFiltre img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	/* margin: 50% auto 0 auto; */
+}
+
+#menuFiltre a:link {
+	text-decoration: none;
+	color: #000;
+}
+.container {
+	height: 100%;
+	position: relative;
+}
+
+.center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -40%);
+}
+
+/* partie centrale */
+#contenu {
+	width: 59%;
+
+	float: left;
+	height: 93.5%;
+	margin: 0 0 0 1%;
+	padding: 0 0 3% 0;
+	font-size: 1.5em;
+	overflow-y: auto;
+}
+/* #contenu::-webkit-scrollbar,
+#menuFiltre::-webkit-scrollbar {
+	width: 12px; /* width of the entire scrollbar 
+}
+
+#contenu::-webkit-scrollbar,
+#menuFiltre::-webkit-scrollbar {
+	background-color: rgb(145, 144, 143); /* color of the scroll thumb 
+	border-radius: 5px; /* roundness of the scroll thumb 
+	border: 3px solid rgb(75, 75, 77); /* creates padding around scroll thumb
+} */
+
+#contenu .card {
+	width: 23.5%;
+	height: 150px;
+	margin: 0 1.5% 3% 0;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#contenu .row {
+	/* width: 100%; */
+	margin: 0;
+	position: relative;
+}
+
+#contenu p {
+	width: 100%;
+	margin: 0;
+	padding: 0 2% 0 2%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+/* Menu de commande */
+#commande {
+	position: relative;
+	background-color: rgb(253, 253, 253);
+	width: 29%;
+	height: 85%;
+	float: left;
+	margin: 0 0 0 0;
+	/* font-family: "Oswald", sans-serif; */
+	font-family: "Outfit", sans-serif;
+	overflow-y: auto;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+
+	/* border-top: 1px solid #000; */
+}
+#commande .card-body {
+	width: 100;
+	background: #e9e9e9;
+	border-radius: 3px 3px 0 0;
+
+	height: 8%;
+	/* border-bottom: 1px solid rgb(200, 200, 200); */
+}
+#commande li {
+	width: 100%;
+}
+#total {
+	position: fixed;
+	clear: both;
+	bottom: 10px;
+	width: 29%;
+
+	font-size: 1.3rem;
+}
+#total .right {
+	color: rgb(29, 177, 29);
+}
+
+.right {
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+.right button {
+	position: absolute;
+	top: 12%;
+	right: 1%;
+	width: 3px;
+	height: 3px;
+	margin: 0 0 0 4.5px;
+}
+.right .montant {
+	margin: 0 5% 0 0;
+}
+/* clavier central */
+
+.card {
+	height: 78%;
+	margin: 15px 0 0 0;
+	padding: 0;
+
+	/*float: left;*/
+}
+
+#clav {
+	margin-top: 15px;
+	height: 80%;
+	text-align: center;
+	position: relative;
+}
+
+#clav > div {
+	height: 19%;
+}
+
+.toucheClav {
+	vertical-align: center;
+}
+
+#encaiss {
+	background: rgb(12, 126, 179);
+	height: 50px;
+}
+#calTop {
+	height: 8%;
+}
+
+.container {
+	height: 100%;
+	position: relative;
+}
+
+.center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.badge-mdp {
+	width: 20px;
+	display: inline-block;
+	height: 20px;
+}
